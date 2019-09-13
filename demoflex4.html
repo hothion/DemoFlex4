@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> text flex</title>
+<style type="text/css">
+		
+	.main {
+	  	display:flex;
+	}
+	.a{
+		background:red;
+		flex-grow: 1;
+	}
+	.b{
+		background:green;
+		flex-grow:1;
+	}
+	.c{
+		background:blue;
+		flex-grow:1;
+	}
+@media only screen and(max-width: 600px){
+	.main{
+		display: flex;
+		flex-direction: column;
+	}
+}
+</style>
+</head>
+<body>
+	<div class="main">
+		<div class="a"><h1>A</h1>
+		</div>
+		<div class="b"><h1>B</h1>
+		</div>
+		<div class="c"><h1>C</h1>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
